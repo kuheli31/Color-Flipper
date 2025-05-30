@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+
+}
+
+h1{
+    margin: 20px;
+    text-align: center;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    font-size: large;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+}
+
+#red{
+    background-color: red;
+    color: white;
+}
+#green{
+    background-color: rgb(20, 238, 20);
+    color: black;
+}
+#blue{
+    background-color: blue;
+    color: white;
+}
+
+#pink{
+    background-color: pink;
+    color: black;
+}
+#yellow{
+    background-color: yellow;
+    color: black;
+}
+
+button:hover{
+    border: 3px solid black;
+    transform: scale(1.1);
+}
